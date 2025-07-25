@@ -15,9 +15,7 @@ This project is a minimal and fast setup using **React** with **Vite**, enabling
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd explorer
-
+git clone https://github.com/2002-niraj/explorer.git
 
 ### 2. Install dependencies
 
