@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect } from "react";
-import Charactercard from "./CharacterCard";
+import Charactercard from "../../src/component/Charactercard";
 import Paginationcontrols from "./Paginationcontrol";
 import Shimmer from "./Shimmer";
 import Header from "./Header";
