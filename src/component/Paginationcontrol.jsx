@@ -2,7 +2,7 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const PaginationControls = ({ currentPage, handleNext, handlePrevious, totalPages }) => {
   return (
-    <div className="flex justify-center items-center gap-6 mt-6">
+    <div className="flex  justify-center items-center gap-6 mt-6">
       <button
         onClick={handlePrevious}
         disabled={currentPage === 1}

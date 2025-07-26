@@ -59,7 +59,7 @@ const Characterlist = () => {
      <div  >
        <Header onSearchFunc={setSearchQuery} setCurrentPage={setCurrentPage} />
        
-    <div className="bg-white dark:bg-gray-900 text-black dark:text-white">
+    <div className="bg-white h-170 dark:bg-gray-900 text-black dark:text-white">
         <div className="p-2 mt-19 max-w-7xl mx-auto">
         <h1 className="text-3xl font-bold mb-6">Star Wars Characters</h1>
 
@@ -77,7 +77,7 @@ const Characterlist = () => {
           </div>
         )}
 
-        {filteredCharacters.length > peoplesPerPage && (
+        {currentPeoples.length > 0 && (
           <div className="mt-10">
             <Paginationcontrols
               currentPage={currentPage}
